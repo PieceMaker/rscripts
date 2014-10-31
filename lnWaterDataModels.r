@@ -1,4 +1,4 @@
-source_url('https://github.com/PieceMaker/rscripts/blob/master/waterData.r', local = F)
+source_url('https://github.com/PieceMaker/rscripts/blob/master/waterData.r')
 lnWaterData <- log(waterData)
 names(lnWaterData) <- c('lnQ',
                         'lnX1',
